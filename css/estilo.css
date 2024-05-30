@@ -1,0 +1,605 @@
+/* Autor Emiliano Mandacen - 331839
+    Fecha 30/5/2024
+    Descripción: Estilos de la pagina web de Cosquin Rock
+*/
+
+body {
+    font-family: 'Open Sans';
+    background-image: url('../assets/img/cosquin-Rock2.jpg'); /*Escenario, imagen de fondo de la web*/
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+header {
+    background-color: #23a3a3;
+    color: #000000;
+    border-bottom: 2px solid black;
+}
+
+/* Nav-Bar */
+
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tituloNav {
+    display: flex;
+    align-items: center;
+}
+
+.tituloNav h1 {
+    padding-top: 5px;
+}
+
+.imgNavBar {
+    float: left;
+    width: 50px;
+    height: 50px;
+    padding: 0 10px;
+}
+
+
+.menu ul {
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+}
+
+.menu li {
+    text-align: center;
+    float: right;
+    margin-right: 1vw;
+}
+
+nav ul li a {
+    font-size: 1.13rem;
+    background-color: #23a3a3;
+    padding: 20px;
+    border-radius: 15px;
+    color: #000000;
+    border: none;
+    text-decoration: none;
+    transition: transform 0.3s;
+    color: #000000;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #1a7979;
+    text-decoration: underline;
+    text-decoration-color: #000000;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
+}
+
+/* sección banner */
+
+.banner {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+
+
+.textoBanner {
+    /* Se alinea a la izq por un tema estetico relacionado a la imagen de fondo*/
+    padding-top: 25px;
+    margin-top: 10%;
+    margin-left: 2%;
+    width: 550px;
+    height: 400px;
+    text-align: center;
+    color: #000000;
+    border-radius: 5px 50px 50px 30px;
+    background-color: rgba(35, 163, 163, 0.6);
+    align-items: center;
+}
+
+.textoBanner h2 {
+    font-size: 1.56rem;
+}
+
+.textoBanner h2 strong {
+    font-size: 2.50rem;
+}
+
+
+.textoBanner p {
+    padding: 5px;
+    font-size: 1.13rem;
+}
+
+.textoBanner a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.13rem;
+    border: 1px solid #000000;
+    background-color: #e5e7e7;
+}
+
+.textoBanner a:hover {
+    background-color: #1a7979;
+}
+
+
+/* sección artistas */
+
+#artistas {
+    width: 100%;
+    height: 780px;
+    background-color: #23a3a3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.25rem;
+}
+
+#artistas h2 {
+    margin-top: 100px;
+    font-size: 1.88rem;
+    text-align: center;
+    color: black;
+}
+
+.title-artista {
+    height: 280px;
+    text-align: center;
+    border-radius: 20px;
+    width: 100%;
+}
+
+#artistas a {
+    text-decoration: none;
+    color: black;
+}
+
+#artistas a:hover {
+    text-decoration: underline;
+}
+
+.artistas {
+    display: flex;
+    width: 80%;
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.artista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 300px;
+    text-align: center;
+}
+
+.artista p {
+    text-align: center;
+    font-size: 0.94rem;
+    width: 70%;
+}
+
+.artista p strong {
+    font-size: 1.25rem;
+}
+
+.imgArtista {
+    padding: 15px;
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+    border: 1px solid #000000;
+    background-color: #1a7979;
+    box-shadow: 11px 12px 20px 10px rgba(0, 0, 0, 0.5);
+}
+
+.artistaCiro {
+    width: 90px;
+    height: 80px;
+    margin-top: 15%;
+    margin-left: 12%;
+}
+
+.artistaCuarteto {
+    margin-top: 10%;
+    margin-left: 3%;
+    width: 100px;
+    height: 80px;
+}
+
+.artistaYSY {
+    width: 100px;
+    height: 80px;
+    margin-top: 15%;
+    margin-left: 3%;
+}
+
+.artistaAutenticos {
+    width: 160px;
+    height: 90px;
+    margin-top: 5%;
+    margin-left: -30%;
+}
+
+/* sección entradas */
+
+#entradas {
+    background-color: rgba(232, 235, 228, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#entradas h2 {
+    margin-top: 100px;
+    font-size: 1.88rem;
+    text-align: center;
+    color: black;
+}
+
+.title-entradas {
+    height: 250px;
+    text-align: center;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.entradas {
+    padding-bottom: 18vh;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    justify-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5vh;
+}
+
+.entrada h3,
+.entrada p {
+    font-size: 1.25rem;
+    color: black;
+    padding-left: 0%;
+    margin-left: 0%;
+}
+
+.entrada {
+    height: 420px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    background-color: #23a3a3;
+    text-align: left;
+    border-radius: 50px 0px 50px 0px;
+    box-shadow: 11px 12px 20px 10px rgba(0, 0, 0, 0.5);
+}
+
+.entrada p strong {
+    font-size: 1.88rem;
+    margin: 0;
+}
+
+.icono-check::before {
+    content: url(../assets/icons/check-circle.svg);
+    margin-right: 5px;
+}
+
+.icono-cross::before {
+    content: url(../assets/icons/x-circle.svg);
+    margin-right: 5px;
+}
+
+.entrada ul {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.entrada ul li {
+    text-align: left;
+}
+
+.entrada a {
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.13rem;
+    color: black;
+    border: 1px solid #000000;
+    background-color: #e5e7e7;
+}
+
+.entrada a:hover {
+    background-color: #1a7979;
+}
+
+/* sección galeria */
+
+#galeria {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#galeria h2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 100px;
+    text-align: center;
+    font-size: 1.88rem;
+    color: #ffffff;
+}
+
+.title-galeria {
+    height: 100px;
+    text-align: center;
+    width: 100%;
+}
+
+.contenedorImg {
+    width: 100%;
+    max-width: 1100px;
+    margin-top: 60px;
+    margin: auto;
+    margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 20vh 20vh 30vh 10vh;
+    grid-gap: 2.5vh;
+}
+
+figure {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.contenedorImg .imgBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.contenedorImg .imgBox img:hover {
+    transform: scale(1.05);
+}
+
+.contenedorImg .imgBox:nth-child(2) {
+    grid-column-start: span 2;
+}
+
+.contenedorImg .imgBox:nth-child(3) {
+    grid-row-start: span 2;
+}
+
+.contenedorImg .imgBox:nth-child(4) {
+    grid-row-start: span 2;
+    grid-column-start: span 2;
+}
+
+.contenedorImg .imgBox:nth-child(6) {
+    grid-column-start: span 2;
+}
+
+figcaption {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    bottom: 0px;
+    position: absolute;
+    pointer-events: none;
+    border-radius: 0px 0px 10px 10px;
+    width: 98.1%;
+    height: 85px;
+    padding-left: 5px;
+}
+
+.contenedorImg .imgBox:hover figcaption {
+    transform: scale(1.05);
+    margin-bottom: -3px;
+}
+
+
+/* sección de grilla */
+
+#grilla {
+    background-color: rgba(232, 235, 228, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    flex-wrap: nowrap;
+    padding-bottom: 10vh;
+}
+
+#grilla h2 {
+    margin-top: 80px;
+    font-size: 1.88rem;
+    text-align: center;
+    color: black;
+}
+
+.title-grilla {
+    width: 10vw;
+    height: 200px;
+    text-align: center;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.tablaGrilla {
+    background-color: #23a3a3;
+    border-radius: 20px;
+    text-align: left;
+    font-size: 1.13rem;
+}
+
+.tablaGrilla td {
+    margin: 0;
+    text-align: center;
+    padding: 1vh 2vw;
+}
+
+.tablaGrilla thead {
+    color: white;
+    height: 35px;
+}
+
+.tablaGrilla tbody {
+    margin: 0px;
+    padding-left: 10px;
+    height: 600px;
+}
+
+.tablaGrilla tbody tr:nth-child(odd) {
+    background-color: #1a7979;
+}
+
+.tablaGrilla tbody tr td:first-child,
+.tablaGrilla tbody tr td:nth-child(3) {
+    font-weight: bold;
+}
+
+.tablaGrilla tfoot td {
+    height: 12px;
+}
+
+/* sección de suscribirme */
+
+#suscribirme {
+    background-color: #23a3a3;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.06rem;
+}
+
+#suscribirme h3 {
+    margin-top: 100px;
+    font-size: 1.56rem;
+    text-align: left;
+    margin-left: 100px;
+    color: black;
+}
+
+.title-sub {
+    height: 100px;
+    text-align: center;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.formulario {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    grid-template-rows: 250px;
+    align-items: center;
+    margin-left: 8%;
+}
+
+.separacion {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.radioYcheckBox {
+    display: block;
+    margin-top: 15px;
+}
+
+.form1 {
+    width: 50%;
+}
+
+.form2 {
+    width: 50%;
+}
+
+#email,
+#nombreUsu {
+    width: 80%;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 0.94rem;
+}
+
+#sub {
+    margin-left: 10px;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 0.94rem;
+    color: black;
+}
+
+#sub:hover {
+    background-color: #1a7979;
+}
+
+/* sección Footer */
+
+footer {
+    background-color: #303b3b;
+    color: #ffffff;
+    height: 100px;
+}
+
+
+footer .redes a {
+    text-decoration: none;
+}
+
+footer .redes img {
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 0.94rem;
+    margin-left: -100px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+}
+
+.footer .logoFooter {
+    margin-top: 10px;
+    display: flex;
+}
+
+.footer .logoFooter img {
+    margin: 10px 15px 0px 15px;
+    width: 50px;
+    height: 50px;
+}
